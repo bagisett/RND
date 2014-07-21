@@ -1,0 +1,83 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'pafmake', '--save' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 warn package.json exportpdf@0.0.0 No description
+5 warn package.json exportpdf@0.0.0 No repository field.
+6 warn package.json exportpdf@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'pafmake', null ]
+9 verbose cache add name=undefined spec="pafmake" args=["pafmake",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'pafmake',
+10 verbose parsed url   path: 'pafmake',
+10 verbose parsed url   href: 'pafmake' }
+11 silly lockFile fbcd7231-pafmake pafmake
+12 verbose lock pafmake /Users/bagisett/.npm/fbcd7231-pafmake.lock
+13 silly lockFile fbcd7231-pafmake pafmake
+14 silly lockFile fbcd7231-pafmake pafmake
+15 verbose addNamed [ 'pafmake', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 130d8bc7-pafmake pafmake@
+18 verbose lock pafmake@ /Users/bagisett/.npm/130d8bc7-pafmake.lock
+19 silly addNameRange { name: 'pafmake', range: '*', hasData: false }
+20 verbose url raw pafmake
+21 verbose url resolving [ 'https://registry.npmjs.org/', './pafmake' ]
+22 verbose url resolved https://registry.npmjs.org/pafmake
+23 info trying registry request attempt 1 at 12:15:29
+24 http GET https://registry.npmjs.org/pafmake
+25 http 404 https://registry.npmjs.org/pafmake
+26 verbose headers { date: 'Thu, 17 Jul 2014 16:15:29 GMT',
+26 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 verbose headers   'content-type': 'application/json',
+26 verbose headers   'cache-control': 'max-age=0',
+26 verbose headers   'content-length': '52',
+26 verbose headers   'accept-ranges': 'bytes',
+26 verbose headers   via: '1.1 varnish',
+26 verbose headers   age: '0',
+26 verbose headers   'x-served-by': 'cache-at51-ATL',
+26 verbose headers   'x-cache': 'MISS',
+26 verbose headers   'x-cache-hits': '0',
+26 verbose headers   'x-timer': 'S1405613729.803692,VS0,VE87',
+26 verbose headers   'keep-alive': 'timeout=10, max=50',
+26 verbose headers   connection: 'Keep-Alive' }
+27 silly registry.get cb [ 404,
+27 silly registry.get   { date: 'Thu, 17 Jul 2014 16:15:29 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '52',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-at51-ATL',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1405613729.803692,VS0,VE87',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly lockFile 130d8bc7-pafmake pafmake@
+29 silly lockFile 130d8bc7-pafmake pafmake@
+30 error 404 404 Not Found: pafmake
+30 error 404
+30 error 404 'pafmake' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404 It was specified as a dependency of 'exportpdf'
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Darwin 13.3.0
+32 error command "node" "/usr/local/bin/npm" "install" "pafmake" "--save"
+33 error cwd /Users/bagisett/Projects/export-pdf
+34 error node -v v0.10.29
+35 error npm -v 1.4.14
+36 error code E404
+37 verbose exit [ 1, true ]
